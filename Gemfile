@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+# I prefer HAML over ERB:
+gem 'hpricot',       '0.8.6'
+gem 'sexp_processor','4.4.0'
+gem 'ruby_parser',   '3.2.2'
+gem 'html2haml',     '1.0.1'
+gem 'haml-rails',    '0.4'
+gem 'haml',          '4.0.4'
+
 gem 'angularjs-rails'
 
 group :production do
